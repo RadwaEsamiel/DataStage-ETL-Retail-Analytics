@@ -25,7 +25,6 @@ Project Requirements
 2. Using ETL tool , we need to create ETL solution to load this data into files or data bases based on business need ,you should read source data and make transformation on it to serve business need
 Questions:
 
-1)
 Need data mart that display each transaction for each customer based on type of customer “citizen” or “foreign” with information of it information of product and information of stock which buy with name file “RETAIL_DATA_MART” with transformation upper case of all customer name column
 
 ![Screenshot 2024-03-27 232128](https://github.com/RadwaEsamiel/DataStage-ETL-Retail-Analytics/assets/151566696/3fc8176a-64ba-400f-93f4-def8628a3028)
@@ -41,7 +40,7 @@ Then answer the following business need:
 
 
 
-• Display max profit made by which customer type. Illustrate: customer type “foreign” make 5 transactions, customer type “citizen” makes 3 transactions.
+4. Display max profit made by which customer type. Illustrate: customer type “foreign” make 5 transactions, customer type “citizen” makes 3 transactions.
 So, max profit made by foreign customers.Named DataMart “ACTIVATIONSALES_DATA_MART”
 • Based on which customer make profit , give them Bouns
 Equation = Annual_Income * SpendingScore * 100
